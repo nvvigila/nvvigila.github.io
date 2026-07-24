@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vigila</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #24292e;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      opacity: 0.8;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #24292e;
+      padding-bottom: 8px;
+    }
+    .project {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .project h3 {
+      margin: 0 0 8px 0;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hi, I'm Vigila</h1>
-  <p>Welcome to my page. More coming soon!</p>
+  <header>
+    <h1>Vigila</h1>
+    <p>Computational Chemist / Materials Scientist</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Computational chemist and soon-to-be PhD graduate specializing in electronic-structure theory,
+      density functional theory (DFT), molecular dynamics (MD), and multiscale atomistic modelling of
+      functional materials. My research combines quantum-mechanical calculations with large-scale
+      simulations to develop predictive models that connect atomic-scale interactions with macroscopic
+      material properties.
+    </p>
+    <p>
+      I have extensive experience in force-field development, interface modelling, high-performance
+      computing, and scientific programming using Python. An 18-month research appointment at the
+      California Institute of Technology strengthened my expertise in advanced computational
+      methodologies and collaborative interdisciplinary research.
+    </p>
+    <p>
+      I am motivated to develop next-generation computational approaches that integrate physics-based
+      simulations, artificial intelligence, and data-driven modelling to accelerate the discovery and
+      design of advanced materials.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Quantum-Mechanics-Derived Force Field Development for Poly(vinylidene fluoride) (PVDF)</h3>
+      <p>Developed an all-atom force field directly from density functional theory calculations to accurately reproduce the structural, vibrational, mechanical, and dielectric properties of PVDF for large-scale molecular dynamics simulations.</p>
+    </div>
+
+    <div class="project">
+      <h3>First-Principles Force Field Development for Iron Oxides (Hematite, Magnetite, Maghemite, and Wüstite)</h3>
+      <p>Parameterized transferable atomistic force fields for multiple iron oxide phases using DFT calculations to enable predictive simulations of structural stability, surface chemistry, and interfacial interactions.</p>
+    </div>
+
+    <div class="project">
+      <h3>Multiscale Atomistic Modelling of PVDF–Iron Oxide Nanocomposites</h3>
+      <p>Investigated the influence of nanoparticle surface chemistry and organic ligands on polymer–nanoparticle interfaces, mechanical reinforcement, and dielectric behaviour through large-scale molecular dynamics simulations.</p>
+    </div>
+
+    <div class="project">
+      <h3>Surface Functionalization of γ-Fe₂O₃ Nanoparticles with Carboxylate Ligands</h3>
+      <p>Combined density functional theory and molecular dynamics to study ligand adsorption, surface energetics, crystal morphology, and polymer adhesion on different maghemite facets.</p>
+    </div>
+
+    <div class="project">
+      <h3>Interfacial Adhesion and Surface Energy of Polymer–Nanoparticle Systems</h3>
+      <p>Calculated surface energies, adsorption energies, work of adhesion, and interfacial energies to understand how molecular interactions govern composite performance.</p>
+    </div>
+
+    <div class="project">
+      <h3>Atomistic Force Fields for Functional Materials</h3>
+      <p>Developed transferable quantum-mechanics-based force fields suitable for large-scale simulations and future integration with machine learning approaches for accelerated materials discovery.</p>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Email: <a href="mailto:you@example.com">you@example.com</a><br>
+      GitHub: <a href="https://github.com/nvvigila">github.com/nvvigila</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2026 Vigila. Built with GitHub Pages.
+  </footer>
 </body>
 </html>
